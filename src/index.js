@@ -1,5 +1,7 @@
 import store from "./store.js";
 import { getPlanetsWithResidents } from "./planet.js";
+import './styles.css';
+
 //executes task 1
 const state = store.getState();
 console.log('current State:', state);
