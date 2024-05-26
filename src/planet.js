@@ -1,4 +1,4 @@
-import { baseUrlApi } from './constants/constant.js';
+const baseUrlApi="https://swapi.dev/api"
 //this is a chain promise,output first promise is income data for next promise
 export const getPlanetsWithResidents = () => {
   return fetch(`${baseUrlApi}/planets`)
